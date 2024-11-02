@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Welcome to Hacking Posts!"
+date:   2024-11-02 13:17:23 +0300
+categories: jekyll update
+---
+
+## Abusing AD-DACL : Generic ALL Permissions
+1. **October 17, 2024 by emran**
+In this post, we explore the exploitation of Discretionary Access Control Lists (DACL) using the Generic ALL permission in Active Directory environments. This permission provides unrestricted access to user attributes, enabling various attack vectors, such as Kerberoasting, password resets, and account manipulation.
+2. **October 18, 2024 by emran**
+We will detail the lab setup needed to simulate these attacks and map these methods to the MITRE ATT&CK framework to understand the techniques and tactics involved. Additionally, we will discuss detection mechanisms to identify suspicious activities linked to Generic ALL attacks and provide actionable recommendations to mitigate these vulnerabilities. This overview aims to equip security professionals with the knowledge to recognize and defend against these prevalent threats.
