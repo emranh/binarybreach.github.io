@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-02T18:20:19+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BinaryBreach</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2024/11/02/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2024-11-02T13:17:23+03:00</published><updated>2024-11-02T13:17:23+03:00</updated><id>http://localhost:4000/jekyll/update/2024/11/02/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/11/02/welcome-to-jekyll.html"><![CDATA[You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+Jekyll requires blog post files to be named according to the following format:
+
+`YEAR-MONTH-DAY-title.MARKUP`
+
+Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Welcome to Hacking Posts!</title><link href="http://localhost:4000/jekyll/update/2024/11/02/hacking.html" rel="alternate" type="text/html" title="Welcome to Hacking Posts!" /><published>2024-11-02T13:17:23+03:00</published><updated>2024-11-02T13:17:23+03:00</updated><id>http://localhost:4000/jekyll/update/2024/11/02/hacking</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/11/02/hacking.html"><![CDATA[## Abusing AD-DACL : Generic ALL Permissions
+1. **October 17, 2024 by emran**
+In this post, we explore the exploitation of Discretionary Access Control Lists (DACL) using the Generic ALL permission in Active Directory environments. This permission provides unrestricted access to user attributes, enabling various attack vectors, such as Kerberoasting, password resets, and account manipulation.
+2. **October 18, 2024 by emran**
+We will detail the lab setup needed to simulate these attacks and map these methods to the MITRE ATT&CK framework to understand the techniques and tactics involved. Additionally, we will discuss detection mechanisms to identify suspicious activities linked to Generic ALL attacks and provide actionable recommendations to mitigate these vulnerabilities. This overview aims to equip security professionals with the knowledge to recognize and defend against these prevalent threats.]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[Abusing AD-DACL : Generic ALL Permissions October 17, 2024 by emran In this post, we explore the exploitation of Discretionary Access Control Lists (DACL) using the Generic ALL permission in Active Directory environments. This permission provides unrestricted access to user attributes, enabling various attack vectors, such as Kerberoasting, password resets, and account manipulation. October 18, 2024 by emran We will detail the lab setup needed to simulate these attacks and map these methods to the MITRE ATT&amp;CK framework to understand the techniques and tactics involved. Additionally, we will discuss detection mechanisms to identify suspicious activities linked to Generic ALL attacks and provide actionable recommendations to mitigate these vulnerabilities. This overview aims to equip security professionals with the knowledge to recognize and defend against these prevalent threats.]]></summary></entry></feed>
